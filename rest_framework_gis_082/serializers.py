@@ -1,8 +1,8 @@
 from django.core.exceptions import ImproperlyConfigured
 from django.contrib.gis.db.models.fields import GeometryField as django_GeometryField
 
-from rest_framework.serializers import ModelSerializer, ListSerializer, LIST_SERIALIZER_KWARGS
-from rest_framework.utils.field_mapping import ClassLookupDict
+from rest_framework_3.serializers import ModelSerializer, ListSerializer, LIST_SERIALIZER_KWARGS
+from rest_framework_3.utils.field_mapping import ClassLookupDict
 
 try:
     from collections import OrderedDict

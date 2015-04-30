@@ -30,7 +30,7 @@ from settings import *
 #    'django.contrib.admin',
 #    
 #    # rest framework
-#    'rest_framework',
+#    'rest_framework_3',
 #    'rest_framework_gis',
 #    
 #    # test app

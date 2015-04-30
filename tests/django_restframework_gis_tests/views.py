@@ -1,5 +1,5 @@
-from rest_framework import generics
-from rest_framework.filters import DjangoFilterBackend
+from rest_framework_3 import generics
+from rest_framework_3.filters import DjangoFilterBackend
 
 from .models import *
 from .serializers import *

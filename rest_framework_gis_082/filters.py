@@ -4,8 +4,8 @@ from django.contrib.gis.db import models
 from django.contrib.gis.geos import Polygon, Point
 from django.contrib.gis import forms
 
-from rest_framework.filters import BaseFilterBackend
-from rest_framework.exceptions import ParseError
+from rest_framework_3.filters import BaseFilterBackend
+from rest_framework_3.exceptions import ParseError
 from math import cos, pi
 
 from .tilenames import tile_edges

@@ -29,7 +29,7 @@ if sys.argv[-1] == 'publish':
 
 
 setup(
-    name='djangorestframework-gis',
+    name='djangorestframework-gis-082',
     version=get_version(),
     license='BSD',
     author='Douglas Meehan',
