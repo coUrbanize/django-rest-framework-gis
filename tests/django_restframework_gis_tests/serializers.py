@@ -1,4 +1,4 @@
-from rest_framework import pagination, serializers
+from rest_framework_3 import pagination, serializers
 from rest_framework_gis import serializers as gis_serializers
 
 from .models import *
